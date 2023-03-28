@@ -58,7 +58,7 @@ function removeBotaoAtivo() {
     }
 }
 
-function  escondeTodasAbas() {
+function escondeTodasAbas() {
     const tabsContainer = document.querySelectorAll('[data-tab-id]')
 
     for (let i = 0; i < tabsContainer.length; i++) {
